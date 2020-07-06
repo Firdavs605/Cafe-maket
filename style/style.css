@@ -321,19 +321,19 @@
     }
     
     .main__title {
-        font-size: 47px;
+        font-size: 57px;
     }
 
     .main__desc {
-        font-size: 18px;
+        font-size: 28px;
     }
 
     .container__main-title {
-        font-size: 31px;
+        font-size: 41px;
     }
 
     .container__main-desc {
-        font-size: 18px;
+        font-size: 28px;
     }
 
     .container-2__main {
@@ -349,11 +349,11 @@
     }
 
     .container-2__title {
-        font-size: 30px;
+        font-size: 40px;
     }
 
     .container-2__desc {
-        font-size: 21px;
+        font-size: 31px;
     }
 
     .container-3__content {
