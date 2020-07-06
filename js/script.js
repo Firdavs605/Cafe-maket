@@ -1,8 +1,8 @@
- let STY = document.querySelector('body');
+//  let STY = document.querySelector('body');
 
 
 
 
- window.addEventListener('resize', function() {
-     STY.style.width = "1400px";
- })
+//  window.addEventListener('resize', function() {
+//      STY.style.minWidth = "500px";
+//  })

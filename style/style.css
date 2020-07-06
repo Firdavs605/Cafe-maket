@@ -294,7 +294,10 @@
 
 @media (max-width:768px) {
 
-    
+    .body {
+        min-width: 1460px;
+    }
+
     .icon {
         color: white;
         font-size: 45px;
