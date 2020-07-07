@@ -296,11 +296,7 @@
 
 /* MEDIA start */
 
-@media (max-width:768px) {
-
-    .body {
-        min-width: 1460px;
-    }
+@media (min-width:576) and (max-width:768px) {
 
     .icon {
         color: white;
