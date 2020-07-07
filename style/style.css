@@ -18,6 +18,7 @@
     min-width: 1430px;
     background:url(../img/header__bg.jpg) no-repeat center center /cover;
     background-attachment: fixed; 
+    flex-grow: 1;
     margin: 0 auto;
 }
 
@@ -65,7 +66,10 @@
 }
 
 .header__content {
+    display: flex;
+    flex-direction: column;
     text-align: center;
+    justify-content: center;    
     align-items: center;
     margin-top: 160px;
 }
@@ -343,6 +347,8 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        justify-content: center;
+        height: 1050px;
         text-align: center;
     }
 
