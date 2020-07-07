@@ -18,6 +18,7 @@
     min-width: 1430px;
     background:url(../img/header__bg.jpg) no-repeat center center /cover;
     background-attachment: fixed; 
+    display: flex;
     flex-grow: 1;
     margin: 0 auto;
 }
@@ -296,7 +297,7 @@
 
 /* MEDIA start */
 
-@media (min-width:576) and (max-width:768px) {
+@media (max-width:768px) {
 
     .icon {
         color: white;
