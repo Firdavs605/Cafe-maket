@@ -184,7 +184,7 @@
     margin: 60px auto;
     max-width: 1200px;
     width: 100%;
-    border: 3px solid red;
+
 }
 
 .container__main-2_title {
@@ -296,6 +296,7 @@
     
     .container__main-content2 {
         display: flex;
+        width: 80%;
     }
 
 
@@ -314,6 +315,15 @@
     font-size: 20px;
 }
 
+
+.container__main-title {
+    font-size: 30px;
+}
+
+.container__main-desc {
+    font-size: 14px;
+    width: 280px;
+}
 }
 
 /* MEDIA end */
