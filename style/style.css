@@ -14,6 +14,11 @@
 
 /* HEADER start */
 
+
+body {
+    background: #f6d365;
+}
+
 .header {
     background: url(../img/header__bg.jpg) no-repeat center center /cover;
     /* background-attachment: fixed; */
@@ -97,10 +102,6 @@
 
 
 /* MAIN start */
-
-.main {
-    background: #f6d365;
-}
 
 .container__main {
     max-width: 1100px;
@@ -322,7 +323,85 @@
     border-radius: 7px;
 }
 
+.containe__main-5 {
+    max-width: 1070px;
+    width: 100%;
+    margin: 170px auto;
+    text-align: center;
+}
+
+.container__main5-sec {
+    text-align: center;
+}
+
+.container__main5-title {
+    font-family: 'MB';
+    font-size: 60px;
+    color: black;
+}
+
+.container__main5-desc {
+    font-family: 'MR';
+    color: black;
+    font-size: 21px;
+    width: 700px;
+    margin: 20px auto;
+}
+
+.container__main5-in {
+    width: 548px;
+    padding: 21px 0 18px 15px;
+    font-family: 'MR';
+    margin-top: 88px;
+    color: #999999;
+    font-size: 21px;
+    border: none;
+}
+
+.container__main5-A {
+    text-decoration: none;
+    color: white;
+    font-family: 'MB';
+    font-size: 24px;
+    background: #333333;
+    padding: 18px 41px;
+    text-align: center;
+}
+
 /* MAIN end */
+
+
+
+/* FOOTER start */
+
+.footer {
+    background: #333333;
+    display: flex;
+    padding: 50px 30px;
+    justify-content:space-between;
+}
+
+.footer__logo img {
+    width: 200px;
+}
+
+.footer__right-title {
+    font-family: 'MB';
+    font-size: 41px;
+    color: white;
+}
+
+.footer__right-desc {
+    font-family: 'MR';
+    margin-top: 15px;
+    font-size: 18px;
+    width: 450px;
+    color: white;
+}
+
+/* FOOTER end */
+
+
 
 /* MEDIA start */
 
@@ -396,7 +475,16 @@
 
     .container__main3-sec {
         margin-bottom: 40px;
+    }
 
+    .footer {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer__right-content {
+        margin: 80px auto;
     }
 }
 
@@ -441,6 +529,21 @@
         font-size: 17px;
         width: 310px;
     }
+
+    .container__main5-title {
+        font-size: 30px;
+    }
+
+    .container__main5-desc {
+        font-size: 12px;
+        width: 250px;
+    }
+    
+    .container__main5-in {
+        width: 400px;
+        /* padding: 21px 0 18px 15px; */
+    }
+
 }
 
 @media (max-width: 576px) {
@@ -489,6 +592,15 @@
     width: 200px;
 }
 
+.container__main5-in {
+    width: 300px;
+    margin-bottom: 40px;
+}
+
+.footer__right-desc {
+    font-size: 14px;
+    width: 250px;
+}
 }
 
 /* MEDIA end */
